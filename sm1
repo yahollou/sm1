@@ -1,0 +1,77 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	setlocale(0, "");
+
+	int a_1 = 10;
+	cout << "a_1 = " << a_1 << " | тип: int, размер: 4 б." << endl;
+	int a_2 = 11;
+	cout << "a_2 = " << a_2 << " | тип: int, размер: 4 б." << endl;
+	int a_3 = 12;
+	cout << "a_3 = " << a_3 << " | тип: int, размер: 4 б." << endl;
+	int a_4 = 13;
+	cout << "a_4 = " << a_4 << " | тип: int, размер: 4 б." << endl;
+	int a_5 = 14;
+	cout << "a_5 = " << a_5 << " | тип: int, размер: 4 б." << endl;
+
+	short s_1 = 1;
+	cout << "s_1 = " << s_1 << " | тип: short, размер: 2 б." << endl;
+	short s_2 = 2;
+	cout << "s_2 = " << s_2 << " | тип: short, размер: 2 б." << endl;
+	short s_3 = 3;
+	cout << "s_3 = " << s_3 << " | тип: short, размер : 2 б." << endl;
+	short s_4 = 4;
+	cout << "s_4 = " << s_4 << " | тип: short, размер: 2 б." << endl;
+	short s_5 = 5;
+	cout << "s_5= " << s_5 << " | тип: short, размер: 2 б." << endl;
+
+	float j_1 = 1;
+	cout << "j_1 = " << j_1 << " | тип: short, размер: 4 б." << endl;
+	float j_2 = 2.2;
+	cout << "j_2 = " << j_2 << " | тип: short, размер: 4 б." << endl;
+	float j_3 = 3.1;
+	cout << "j_3 = " << j_3 << " | тип: short, размер: 4 б." << endl;
+	float j_4 = 4.5;
+	cout << "j_4 = " << j_4 << " | тип: short, размер: 4 б." << endl;
+	float j_5 = 5.1;
+	cout << "j_5 = " << j_5 << " | тип: short, размер: 4 б." << endl;
+
+	double h_1 = 1.2;
+	cout << "h_1 = " << h_1 << " | тип: short, размер: 8 б." << endl;
+	double h_2 = 1.001;
+	cout << "h_2 = " << h_2 << " | тип: short, размер: 8 б." << endl;
+	double h_3 = 1.11;
+	cout << "h_3 = " << h_3 << " | тип: short, размер: 8 б." << endl;
+	double h_4 = 1.332;
+	cout << "h_4 = " << h_4 << " | тип: short, размер: 8 б." << endl;
+	double h_5 = 1.2332;
+	cout << "h_5 = " << h_5 << " | тип: short, размер: 8 б." << endl;
+
+	string b_1 = "hello";
+	cout << "b_1 = " << b_1 << " | тип: short, размер: динамический." << endl;
+	string b_2 = "pizza";
+	cout << "b_2 = " << b_2 << " | тип: short, размер: динамический." << endl;
+	string b_3 = "world";
+	cout << "b_3 = " << b_3 << " | тип: short, размер: динамический." << endl;
+	string b_4 = "word";
+	cout << "b_4 = " << b_4 << " | тип: short, размер: динамический." << endl;
+	string b_5 = "whrite";
+	cout << "b_5 = " << b_5 << " | тип: short, размер: динамический." << endl;
+
+	bool k_1 = true;
+	cout << "k_1 = " << k_1 << " | тип: short, размер: 1 б." << endl;
+	bool k_2 = false;
+	cout << "k_2 = " << k_2 << " | тип: short, размер: 1 б." << endl;
+
+	char g_1 = 'a';
+	cout << "g_1 = " << g_1 << " | тип: short, размер: 1 б." << endl;
+	char g_2 = 'a';
+	cout << "g_2 = " << g_2 << " | тип: short, размер: 1 б." << endl;
+	char g_3 = 'a';
+	cout << "g_3 = " << g_3 << " | тип: short, размер: 1 б." << endl;
+	char g_4 = 'a';
+	cout << "g_4 = " << g_4 << " | тип: short, размер: 1 б." << endl;
+	char g_5 = 'a';
+	cout << "g_5 = " << g_5 << " | тип: short, размер: 1 б." << endl;
+}
